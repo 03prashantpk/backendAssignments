@@ -1,0 +1,22 @@
+{
+  "name": "get-api-and-heroku",
+  "version": "1.0.0",
+  "description": "Fatching data from remote server Using own api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i, nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Blank"
+  },
+  "keywords": [
+    "heroku",
+    "API"
+  ],
+  "author": "Prashant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

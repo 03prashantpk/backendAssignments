@@ -1,0 +1,20 @@
+{
+  "name": "age-calculator-api-using-url-query-and-get-method",
+  "version": "1.0.0",
+  "description": "Age calculator API using URL get Request",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm i & node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank"
+  },
+  "keywords": [
+    "Age",
+    "calculator",
+    "API"
+  ],
+  "author": "Prashant Kumar",
+  "license": "ISC"
+}

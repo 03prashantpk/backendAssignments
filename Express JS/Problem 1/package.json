@@ -1,0 +1,22 @@
+{
+  "name": "express-api-to-create-and-retrive",
+  "version": "1.0.0",
+  "description": "Express JS API to create and retrive data from JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i, nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank"
+  },
+  "keywords": [
+    "EXPRESS",
+    "API"
+  ],
+  "author": "Prashant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

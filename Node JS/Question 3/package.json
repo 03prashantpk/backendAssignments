@@ -1,0 +1,20 @@
+{
+  "name": "area-and-volume-api",
+  "version": "1.0.0",
+  "description": "Area and volume calculation API using CORE NODE.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm i, node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank"
+  },
+  "keywords": [
+    "area",
+    "volume",
+    "calculator"
+  ],
+  "author": "Prashant Kumar",
+  "license": "ISC"
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API DOC</title>
+    <style>
+        body {
+            margin: 2%;
+            padding: 2% 20%;
+            background-color: rgb(208, 254, 230);
+        }
+        
+        .main {
+            width: 100%;
+            background-color: #7cfebb;
+            padding: 2%;
+            border-radius: 12px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        
+        h6 {
+            font-size: 16px;
+        }
+        
+        h6,
+        h1 {
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        tr,
+        td {
+            border-bottom: 1px #ccc solid;
+            padding: 8px;
+        }
+        
+        #head {
+            font-weight: 600;
+        }
+        
+        span {
+            background-color: coral;
+            padding: 6px;
+            color: #fff;
+            float: right;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            padding: 8px;
+        }
+        
+        code {
+            background-color: #272727;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        p {
+            background-color: coral;
+            color: #0b3d27;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding-right: 40px;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>NODE & EXPRESS JS</h1>
+        <h6>API to add and Fatch data using file handling.</h6>
+
+        <table>
+            <tr>
+                <td id="head">#</td>
+                <td id="head">API Link</td>
+                <td id="head">API Description</td>
+                <td id="head">METHOD & Browse</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><a href="http://localhost:3004/">http://localhost:3004/</a></td>
+                <td>API Endpoint or API DOC's</td>
+                <td>GET & <span>Browser</span> </td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td><a href="http://localhost:3004/student/add">http://localhost:3004/student/add</a></td>
+                <td>Add Pre-feeded Static Data</td>
+                <td>POST & <span>Console</span> </td>
+            </tr>
+
+
+            <tr>
+                <td>04</td>
+                <td><a href="http://localhost:3004/student/getDetails">http://localhost:3004/student/getDetails</a></td>
+                <td>Fatch all the details in JSON object format</td>
+                <td>GET & <span>Console & Postman</span> </td>
+            </tr>
+
+            <tr>
+                <td>05</td>
+                <td><a href="http://localhost:3004/student/getDetails/all">http://localhost:3004/student/getDetails/all</a></td>
+                <td>Fatch all the details in JSON object format</td>
+                <td>GET & <span>Browser</span> </td>
+            </tr>
+        </table>
+
+        <h2>Run Example</h2>
+        <ul>
+            <li>1. <a href="http://localhost:3004/" target="_blank">http://localhost:3004/</a> <span>Browser</span> </li>
+            <li>2. <a href="http://localhost:3004/student/getDetails/all" target="_blank">http://localhost:3004/student/getDetails/all</a> <span>Browser</span> </li>
+        </ul>
+
+        <p><a href="#">Written by Prashant Kumar</a></p>
+    </div>
+</body>
+
+</html>

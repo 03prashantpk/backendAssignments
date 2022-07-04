@@ -1,0 +1,20 @@
+{
+  "name": "question-2",
+  "version": "1.0.0",
+  "description": "Getting JSON object using node filesystem anddata.json",
+  "main": "blank",
+  "scripts": {
+    "test": "npm i, node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank"
+  },
+  "keywords": [
+    "Return",
+    "JSON",
+    "Object"
+  ],
+  "author": "Prashant Kumar",
+  "license": "ISC"
+}
